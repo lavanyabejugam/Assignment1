@@ -1,0 +1,24 @@
+{
+
+        "version": "0.2.0",
+        "configurations": [
+             {
+                 "name": ".NET Core Launch (console)",
+                 "type": "coreclr",
+                 "request": "launch",
+                 "preLaunchTask": "build",
+                 "program": "${workspaceFolder}/Assignment1/Add2BinaryFloats//bin/Debug/netcoreapp2.0/Add2BinaryFloats.dll",
+                 "args": [],
+                 "cwd": "${workspaceFolder}/Assignment1/Add2BinaryFloats/",
+                 "console": "externalTerminal",
+                 "stopAtEntry": false,
+                 "internalConsoleOptions": "openOnSessionStart"
+             },
+             {
+                 "name": ".NET Core Attach",
+                 "type": "coreclr",
+                 "request": "attach",
+                 "processId": "${command:pickProcess}"
+             }
+         ]
+     }
